@@ -1,6 +1,6 @@
 # tweetdelete
 
-Simple script to delete all your tweets and retweet with no hand. Big thanks to [puppeteer](https://github.com/GoogleChrome/puppeteer).
+Simple script to delete all your tweets and retweet without hands. Big thanks to [puppeteer](https://github.com/GoogleChrome/puppeteer).
 
 ## Requirements
 
@@ -8,12 +8,12 @@ Simple script to delete all your tweets and retweet with no hand. Big thanks to 
 
 ## Usage
 
-Clone this project 
+Clone this project.
 ```
 git clone https://github.com/andreiwahyu/tweetdelete.git
 cd tweetdelete
 ```
-Install all requirements via npm
+Install all requirements via npm.
 ```
 npm install
 ```
@@ -23,7 +23,7 @@ USERNAME=YOUR_USERNAME
 PASSWORD=YOUR_PASSWORD
 SHOW=true
 ```
-Run the project using NPM.
+Run the project using npm.
 ```
 npm start
 ```
