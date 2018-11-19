@@ -6,7 +6,7 @@ const VIEWPORT = { width: 1920, height: 1080 };
 const delay = (ms) => new Promise(resolve => setTimeout(() => resolve(ms), ms));
 (async () => {
     const browser = await puppeteer.launch({
-        headless: !process.env.SHOW,
+        headless: !(process.env.SHOW === "true"),
         args: ["--ash-host-window-bounds=1920x1080", "--window-size=1920,1048", "--window-position=0,0", "--disable-dev-shm-usage"],
     }); 
     const page = await browser.newPage();
